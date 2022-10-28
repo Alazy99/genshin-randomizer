@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-image: url('img/background/abyss_background.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 62.5%;
+	font-family: 'HYWenHei-85W', sans-serif;
+}
+.text-title {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	color: white;
+	font-weight: 600;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20rem;
+}
+
+.character-card {
+	height: 20rem;
+	width: 20rem;
+	background-color: bisque;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding-bottom: 22rem;
+	position: relative;
+}
+
+.character-img {
+	height: 20rem;
+	width: 20rem;
+	background-color: rgb(199, 132, 7);
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.character-element {
+	height: 4rem;
+	width: 4rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.four-star {
+	height: 20rem;
+	width: 20rem;
+	background-color: purple;
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.lvl-description {
+	padding: 1.5rem;
+	background-color: bisque;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+.bottom-structure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 5rem;
+	margin-top: 6rem;
+}
+
+.text-result,
+.message {
+	font-size: 2.4rem;
+	color: white;
+	font-weight: 600;
+}
+
+.button {
+	background-color: aliceblue;
+	display: inline-block;
+	padding: 1.8rem 2.6rem;
+	border-radius: 10px;
+	font-size: 1.6rem;
+	cursor: pointer;
+}

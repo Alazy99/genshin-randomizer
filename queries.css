@@ -1,0 +1,28 @@
+@media (max-width: 34em) {
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		background-image: url('img/background/abyss_background.webp');
+		font-size: 62.5%;
+		font-family: 'HYWenHei-85W', sans-serif;
+	}
+
+	html,
+	body img {
+		display: block;
+		height: 100%;
+	}
+
+	.card {
+		margin: 0;
+	}
+
+	.text-title {
+		font-size: 2.6rem;
+		margin-top: 2rem;
+	}
+}
